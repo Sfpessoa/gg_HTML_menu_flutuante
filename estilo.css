@@ -1,0 +1,39 @@
+@charset "UTF-8";
+nav#menu ul {
+    /* retirar marcodor */
+    list-style: none;
+    /* deixa maiusculo */
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 30px;
+    left:0px;
+}
+nav#menu li {
+    /* lista lado a lado */
+    display: inline-block;
+    background-color: rgb(197, 184, 184);
+    padding: 10 px;
+    margin: 20px;
+    transition: background-color 1s;
+}
+nav#menu li:hover {
+    /* muda cor mouse por cima */
+    background-color: #606060;
+}
+nav#menu a {
+    /* deixar texto preto */
+    color: black;
+    /* tirar sublinado */
+    text-decoration: none;
+}
+nav#menu a:hover {
+    /* deixar o texto branco quando passa o mouse*/
+    color: white;
+    /* deixar o texto sublinado */
+    text-decoration: underline;
+}
+
+nav#menu  {
+   display: block;
+}
